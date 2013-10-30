@@ -1,0 +1,10 @@
+using System;
+namespace FMOD
+{
+	public enum SYSTEM_CALLBACKTYPE
+	{
+		DEVICELISTCHANGED,
+		MEMORYALLOCATIONFAILED,
+		MAX
+	}
+}
